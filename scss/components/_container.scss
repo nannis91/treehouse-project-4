@@ -1,0 +1,11 @@
+.container {
+    padding: 0 10px;
+
+    // Desktop Styles
+    @include for-desktop-only {
+        max-width: 1400px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

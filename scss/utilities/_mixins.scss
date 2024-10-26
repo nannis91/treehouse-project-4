@@ -1,0 +1,21 @@
+@mixin btn-base ($bg-color){
+    // Base Style
+    margin-top: 15px;
+    width: 100%;
+    color: $color-white;
+    background-color: $bg-color;
+    border: none;
+    padding: 10px 0;
+    text-transform: uppercase;
+    border-radius: $radius-s;
+
+    // Hover Effect
+    &:hover {
+        background-color: lighten($bg-color, $lighten-m);    
+    }
+
+    // Desktop Styles
+    @include for-desktop-only {
+    padding: 10px 30px;
+  } 
+}

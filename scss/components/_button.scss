@@ -1,0 +1,29 @@
+/* ============================================= */
+/*              Buttons                          */
+/* ============================================= */
+
+.btn {
+  &.default {
+    @include btn-base($color-accent);
+  }  
+  &.error {
+    @include btn-base($color-error);
+  }
+  &.info {
+    @include btn-base($color-info);
+  }
+  &.success {
+    @include btn-base($color-success);
+  }
+  &.warning {
+    @include btn-base($color-warning);
+  }
+}
+
+.btn + .btn {
+  // Desktop Styles
+  @include for-desktop-only {
+    margin-left: 10px;
+  }
+
+}

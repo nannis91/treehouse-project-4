@@ -2,15 +2,37 @@
 /* Color Variables */
 /* ============================================= */
 
-$color-primary:#51ddfc;
-$color-secondary:#58e1c1;
+$color-primary:#58e1c1;
+$color-secondary:#777;
+$color-accent:#51ddfc;
 $color-success:#63cc82;
 $color-error:#e4757a;
 $color-warning:#fd7856;
 $color-info:#927bc1;
+$color-white:#FFF;
+
+/* ============================================= */
+/* Lighten Variables */
+/* ============================================= */
+
+$lighten-s: 10%;
+$lighten-m: 15%;
+$lighten-l: 20%;
+
+/* ============================================= */
+/* Typography Variables */
+/* ============================================= */
+
+$font-family-primary: 'Lato', sans-serif;
+
+/* ============================================= */
+/* Radius Variables */
+/* ============================================= */
+
+$radius-s: 5px;
 
 /* ============================================= */
 /* Media Queries */
 /* ============================================= */
 
-$mq-m: 768px;
+$mq-m:768px;

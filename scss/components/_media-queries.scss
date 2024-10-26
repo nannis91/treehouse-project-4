@@ -1,0 +1,4 @@
+@mixin for-desktop-only {
+    @media (min-width: $mq-m) { @content; }
+}
+
