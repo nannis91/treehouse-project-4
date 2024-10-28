@@ -26,9 +26,9 @@
     color .2s ease-in-out;
 
     // Hover Psuedo
-    &.a:hover {
-      color: #fff;
-      background-color: #58e1c1;
+    &:hover {
+      color: $color-white;
+      background-color: $color-primary;
     }
 
     // Desktop Styles

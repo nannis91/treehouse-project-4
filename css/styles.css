@@ -650,8 +650,8 @@ a {
   width: 100%;
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 }
-.nav-link.a:hover {
-  color: #fff;
+.nav-link:hover {
+  color: #FFF;
   background-color: #58e1c1;
 }
 @media (min-width: 768px) {
